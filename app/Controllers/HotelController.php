@@ -116,7 +116,6 @@ class HotelController extends Controller
             $data['message'] = 'No such data or there is no such name';
         }
 
-        // Mengirim hasil pencarian ke view 'pages/searchResults' untuk ditampilkan
         return view('pages/searchResults', $data);
     }
 }

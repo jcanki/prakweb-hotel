@@ -9,6 +9,6 @@ class HotelModel extends Model
     protected $table      = 'hotels';
     // Nama kolom primary key
     protected $primaryKey = 'id';
-    // Kolom-kolom yang diizinkan untuk diisi (insert/update)
+
     protected $allowedFields = ['name', 'address', 'city', 'price'];
 }
