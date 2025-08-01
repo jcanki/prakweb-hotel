@@ -110,9 +110,8 @@ class HotelController extends Controller
                                    ->findAll();
         }
 
-        // Memeriksa apakah hasil pencarian kosong
         if (empty($data['hotels'])) {
-            // Jika kosong, menambahkan pesan ke array $data
+
             $data['message'] = 'No such data or there is no such name';
         }
 
